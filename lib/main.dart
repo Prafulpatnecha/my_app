@@ -187,19 +187,17 @@ void main() {
                       color: woodl,
                       width: 20,
                     ),
-                    vertical: BorderSide(
+                    vertical: const BorderSide(
                       color: Colors.white,
                       width: 35,
                     ),
                   ),
                 ),
-                child: Container(
-                  child: Text(
-                    '🔥',
-                    style: TextStyle(
-                      fontSize: 30,
-                      height: -6.6,
-                    ),
+                child: const Text(
+                  '🔥',
+                  style: TextStyle(
+                    fontSize: 35,
+                    height: -5.8,
                   ),
                 ),
               ),
