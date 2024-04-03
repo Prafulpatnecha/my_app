@@ -37,6 +37,7 @@ void main() {
                     fontSize: 130,
                     letterSpacing: -45,
                     color: Color.fromRGBO(0, 0, 0, 0.4),
+
                   ),
                 ),
               ),
