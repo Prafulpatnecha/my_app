@@ -18,3 +18,7 @@ Color yellow=const Color(0xffFFFF00);
 Color pink=const Color(0xffE91E63);
 Color orange=const Color(0xffFF9800);
 Color acuaGreen=const Color(0xff64FFDA);
+
+// Ui->4
+Color wood=const Color(0xff5B4036);
+Color woodl=const Color(0xff795548);

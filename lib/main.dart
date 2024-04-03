@@ -1,53 +1,53 @@
 // import 'package:flutter/cupertino.dart';
 // import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:my_app/home/appbar_details.dart';
+import 'package:my_app/home/components/appbar_details.dart';
 import 'package:my_app/utils/colors.dart';
 
 // UI-> 1
 
-void main() {
-  runApp(
-    MaterialApp(
-      // color: Colors.red,
-      title: 'AppFlutter',
-
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        // backgroundColor: green2,
-        appBar: AppbarDetails(col: green5, num: 40),
-        body: Scaffold(
-          backgroundColor: green2,
-          appBar: AppbarDetails2(red: green1, latter: 'My App', para: true),
-          // appBar: AppbarDetails(col: green1, num: 60),
-          body: Align(
-            child: Container(
-              height: 290,
-              width: 290,
-              color: green3,
-              alignment: Alignment.center,
-              child: Container(
-                height: 230,
-                width: 230,
-                color: green4,
-                alignment: Alignment.center,
-                child: const Text(
-                  'OOOO',
-                  style: TextStyle(
-                    fontSize: 130,
-                    letterSpacing: -45,
-                    color: Color.fromRGBO(0, 0, 0, 0.4),
-
-                  ),
-                ),
-              ),
-            ), // body:,
-          ),
-        ),
-      ),
-    ),
-  );
-}
+// void main() {
+//   runApp(
+//     MaterialApp(
+//       // color: Colors.red,
+//       title: 'AppFlutter',
+//
+//       debugShowCheckedModeBanner: false,
+//       home: Scaffold(
+//         // backgroundColor: green2,
+//         appBar: AppbarDetails(col: green5, num: 40),
+//         body: Scaffold(
+//           backgroundColor: green2,
+//           appBar: AppbarDetails2(red: green1, latter: 'My App', para: true),
+//           // appBar: AppbarDetails(col: green1, num: 60),
+//           body: Align(
+//             child: Container(
+//               height: 290,
+//               width: 290,
+//               color: green3,
+//               alignment: Alignment.center,
+//               child: Container(
+//                 height: 230,
+//                 width: 230,
+//                 color: green4,
+//                 alignment: Alignment.center,
+//                 child: const Text(
+//                   'OOOO',
+//                   style: TextStyle(
+//                     fontSize: 130,
+//                     letterSpacing: -45,
+//                     color: Color.fromRGBO(0, 0, 0, 0.4),
+//
+//                   ),
+//                 ),
+//               ),
+//             ), // body:,
+//           ),
+//         ),
+//       ),
+//     ),
+//   );
+// }
 
 // UI -> 2
 
@@ -151,3 +151,62 @@ void main() {
 //     ),
 //   );
 // }
+
+// UI -> 4
+void main() {
+  runApp(
+    MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Mashal',
+      home: Scaffold(
+        appBar: AppbarDetails(col: wood, num: 0.5),
+        body: Scaffold(
+          appBar: AppbarDetails2(red: woodl, latter: 'Mashal', para: true),
+          body: Align(
+            child: Container(
+              height: 165,
+              width: 130,
+              decoration: BoxDecoration(
+                color: wood,
+                border: Border.all(
+                  color: woodl,
+                  width: 0.7,
+                ),
+                // border: Border.symmetric(
+                //   horizontal: BorderSide(
+                //     color: woodl,
+                //     width: 25,
+                //   ),
+                // ),
+              ),
+              child: Container(
+                alignment: Alignment.center,
+                decoration: BoxDecoration(
+                  border: Border.symmetric(
+                    horizontal: BorderSide(
+                      color: woodl,
+                      width: 20,
+                    ),
+                    vertical: BorderSide(
+                      color: Colors.white,
+                      width: 35,
+                    ),
+                  ),
+                ),
+                child: Container(
+                  child: Text(
+                    '🔥',
+                    style: TextStyle(
+                      fontSize: 30,
+                      height: -6.6,
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+  );
+}

@@ -3,8 +3,8 @@
 // import 'dart:ui';
 
 // import 'package:flutter/cupertino.dart';
+// import 'package:my_app/utils/colors.dart';
 import 'package:flutter/material.dart';
-import 'package:my_app/utils/colors.dart';
 
 // Ui->1,2
 AppBar AppbarDetails({
